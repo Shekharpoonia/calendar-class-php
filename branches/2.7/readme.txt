@@ -70,7 +70,10 @@ calendar.class.php v2.7
 copyright © 2008 Jim Mayes
 licensed under: GPL v2.0 
 http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
-For Commercial Lisensing information visit http://style-vs-substance.com/calendarclassphp/
+Use of this class for commercial/proprietary purposes is governed by the 
+terms of Commercial License issued exclusively by the Author.
+Visit http://style-vs-substance.com/ for information, updates and to obtain License for Commercial Use
+
 
 
 
