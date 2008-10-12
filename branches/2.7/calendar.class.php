@@ -4,11 +4,11 @@
 *
 * This class provides a simple reuasable means to produce month calendars in valid html
 *
-* @version 2.6
+* @version 2.7
 * @author Jim Mayes <jim.mayes@gmail.com>
 * @link http://style-vs-substance.com
 * @copyright Copyright (c) 2008, Jim Mayes
-* @license http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-Share Alike 3.0 License
+* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt GPL v2.0
 */
 
 class Calendar{

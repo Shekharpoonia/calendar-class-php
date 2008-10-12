@@ -1,5 +1,5 @@
 =======================
-calendar.class.php v2.6
+calendar.class.php v2.7
 =======================
 
 
@@ -66,11 +66,11 @@ Visit style-vs-substance.com to request help or suggest additional features
 6. Copyright
 ============
 
-calendar.class.php v2.6
+calendar.class.php v2.7
 copyright © 2008 Jim Mayes
-licensed under: Creative Commons Attribution-Share Alike 3.0 License 
-http://creativecommons.org/licenses/by-sa/3.0/
-This class may not be used for commercial purposes without written consent.
+licensed under: GPL v2.0 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+For Commercial Lisensing information visit http://style-vs-substance.com/calendarclassphp/
 
 
 
