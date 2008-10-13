@@ -4,11 +4,11 @@
 *
 * This class provides a simple reuasable means to produce month calendars in valid html
 *
-* @version 2.6
+* @version 2.7
 * @author Jim Mayes <jim.mayes@gmail.com>
 * @link http://style-vs-substance.com
 * @copyright Copyright (c) 2008, Jim Mayes
-* @license http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-Share Alike 3.0 License
+* @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt GPL v2.0
 */
 
 class Calendar{
@@ -63,6 +63,17 @@ class Calendar{
 		$this->day		= date("d", strtotime($date));
 	}
 	
+	function day_of_week($date){
+		$day_of_week = date("N", $date);
+		if( !is_numeric($day_of_week) ){
+			$day_of_week = date("w", $date);
+			if( $day_of_week == 0 ){
+				$day_of_week = 7;
+			}
+		}
+		return $day_of_week;
+	}
+	
 	function output_calendar($year = NULL, $month = NULL, $calendar_class = 'calendar'){
 		
 		if( $this->week_start_on !== FALSE ){
@@ -77,7 +88,7 @@ class Calendar{
 		//------------------------------------------- create first date of month
 		$month_start_date = strtotime($year . "-" . $month . "-01");
 		//------------------------- first day of month falls on what day of week
-		$first_day_falls_on = date("N", $month_start_date);
+		$first_day_falls_on = $this->day_of_week($month_start_date);
 		//----------------------------------------- find number of days in month
 		$days_in_month = date("t", $month_start_date);
 		//-------------------------------------------- create last date of month
@@ -86,7 +97,7 @@ class Calendar{
 		$start_week_offset = $first_day_falls_on - $this->week_start;
 		$prepend = ( $start_week_offset < 0 )? 7 - abs($start_week_offset) : $first_day_falls_on - $this->week_start;
 		//-------------------------- last day of month falls on what day of week
-		$last_day_falls_on = date("N", $month_end_date);
+		$last_day_falls_on = $this->day_of_week($month_end_date);
 
 		//------------------------------------------------- start table, caption
 		$output  = "<table class=\"" . $calendar_class . "\">\n";
