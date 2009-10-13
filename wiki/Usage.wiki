@@ -1,0 +1,5 @@
+#summary Examples of using the class
+
+= Using the class =
+
+  * Displaying the calendar in a different language
