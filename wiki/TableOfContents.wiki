@@ -1,4 +1,4 @@
 #summary wiki table of contents
 
-  * Usage
+  * Using the class
     * [LanguageLocalization Language Localization]
