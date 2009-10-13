@@ -1,0 +1,12 @@
+#summary Examples of using the class
+
+Examples of using the class are included in the downloadable zip file
+
+You can see the examples live at the website:
+[http://style-vs-substance.com/projects/calendar/examples/]
+
+For more help using the class visit the blog:
+[http://style-vs-substance.com/calendarclassphp/]
+
+== Usage Examples ==
+  * [LanguageLocalization Language Localization]
