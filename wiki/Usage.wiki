@@ -1,5 +1,3 @@
-#summary Examples of using the class
-
 Examples of using the class are included in the downloadable zip file
 
 You can see the examples live at the website:
