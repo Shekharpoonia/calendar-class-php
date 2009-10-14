@@ -8,5 +8,5 @@ You can see the examples live at the website:
 For more help using the class visit the blog:
 [http://style-vs-substance.com/calendarclassphp/]
 
-== Usage Examples ==
+=== Usage Examples ===
   * [LanguageLocalization How to Output the calendar in another language]
