@@ -9,4 +9,4 @@ For more help using the class visit the blog:
 [http://style-vs-substance.com/calendarclassphp/]
 
 == Usage Examples ==
-  * [LanguageLocalization Language Localization]
+  * [LanguageLocalization How to Output the calendar in another language]
