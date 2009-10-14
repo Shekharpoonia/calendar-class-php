@@ -30,4 +30,4 @@ print($calendar->output_calendar());
 
 }}}
 
-[http://style-vs-substance.com/projects/calendar/examples/example_6.php View Example]
+[http://style-vs-substance.com/projects/calendar/examples/example_6.php View Example at Style-vs-SUBSTANCE.com]
