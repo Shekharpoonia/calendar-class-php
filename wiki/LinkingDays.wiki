@@ -9,8 +9,17 @@ Flexible formating of the URL that dates link to is now possible thru the proper
 == Example==
 
 {{{
+/* include the calendar class */
 require_once('calendar.class.php');
-$calendar = new Calendar('2008-02-08');
+
+/* create the calendar object */
+$calendar = new Calendar('2012-12-21');
+
+/* provide a date() function friendly formatting string for the day link
+   This produces a link like:
+   http://yourdomain.com/2012/12/21
+*/
 $calendar->formatted_link_to = '/%Y/%m/%d';
+
 echo $calendar->output_calendar();
 }}}
