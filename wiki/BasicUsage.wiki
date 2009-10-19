@@ -15,3 +15,5 @@ $simple_example = new Calendar();
 /* now output the calendar */
 echo $simple_example->output_calendar();
 }}}
+
+[http://style-vs-substance.com/projects/calendar/examples/example_1.php]
