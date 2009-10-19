@@ -6,7 +6,7 @@ Flexible formating of the URL that dates link to is now possible thru the proper
 
 
 
-== Example==
+== Formatted Link Example==
 
 {{{
 /* include the calendar class */
