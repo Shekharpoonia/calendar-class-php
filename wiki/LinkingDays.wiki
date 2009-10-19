@@ -15,11 +15,13 @@ require_once('calendar.class.php');
 /* create the calendar object */
 $calendar = new Calendar('2012-12-21');
 
-/* provide a date() function friendly formatting string for the day link
-   This produces a link like:
-   http://yourdomain.com/2012/12/21
+/*
+ provide a date() function friendly formatting string for the day link
+
+ This produces a link like: http://yourdomain.com/2012/12/21
 */
 $calendar->formatted_link_to = '/%Y/%m/%d';
 
+/* now output the calendar as normal */
 echo $calendar->output_calendar();
 }}}
