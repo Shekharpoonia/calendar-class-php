@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Flexible formating of the URL that dates link to is now possible thru the property, $formatted_link_to(). Simply provide a string containing PHP date() function compatible parameters (see PHP date() function documentation). Not only does this new feature allow better control of the URL that days link to, it also allows calendar.class.php to integrate into applications utilizing Cruft-free URLs.
+Flexible formating of the URL that dates link to is now possible thru the property, $formatted_link_to(). Simply provide a string containing PHP date() function compatible parameters ([http://www.php.net/manual/en/function.date.php see PHP date() function documentation]). Not only does this new feature allow better control of the URL that days link to, it also allows calendar.class.php to integrate into applications utilizing Cruft-free URLs.
 
 
 
