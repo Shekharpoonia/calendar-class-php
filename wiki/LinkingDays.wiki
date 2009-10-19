@@ -3,3 +3,12 @@
 = Introduction =
 
 Flexible formating of the URL that dates link to is now possible thru the property, $formatted_link_to(). Simply provide a string containing PHP date() function compatible parameters (see PHP date() function documentation). Not only does this new feature allow better control of the URL that days link to, it also allows calendar.class.php to integrate into applications utilizing Cruft-free URLs.
+
+
+
+== Example==
+
+require_once('calendar.class.php');
+$calendar = new Calendar('2008-02-08');
+$calendar->formatted_link_to = '/%Y/%m/%d';
+echo $calendar->output_calendar();
