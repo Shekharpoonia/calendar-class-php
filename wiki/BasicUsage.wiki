@@ -8,7 +8,12 @@ Download calendar.class.php and included it into your PHP script. Then call the 
 == Example==
 
 {{{
+/* include the calendar class */
 require_once('calendar.class.php');
+
+/* create the calendar object */
 $simple_example = new Calendar();
-print($simple_example->output_calendar());
+
+/* now output the calendar */
+echo $simple_example->output_calendar();
 }}}
