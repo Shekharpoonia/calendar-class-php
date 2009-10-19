@@ -17,3 +17,19 @@ echo $simple_example->output_calendar();
 }}}
 
 [http://style-vs-substance.com/projects/calendar/examples/example_1.php View Working Example at Style-vs-SUBSTANCE.com]
+
+
+== Displaying a Specific Month ==
+
+To display a calendar of a specified month, you must pass two parameters to the constructor, $year and $month
+
+{{{
+/* include the calendar class */
+require_once('calendar.class.php');
+
+/* create the calendar object */
+$simple_example = new Calendar('2012', '12');
+
+/* now output the calendar */
+echo $simple_example->output_calendar();
+}}}
