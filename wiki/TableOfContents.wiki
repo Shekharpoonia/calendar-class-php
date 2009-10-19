@@ -1,2 +1,3 @@
   * Using the class
     * [LanguageLocalization Language Localization]
+    * [LinkingDays Formatting Day Links]
