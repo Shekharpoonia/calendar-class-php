@@ -1,0 +1,14 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Download calendar.class.php and included it into your PHP script. Then call the constructor to create a new calendar object. Use the output method to display the calendar.
+
+
+== Example==
+
+{{{
+require_once('calendar.class.php');
+$simple_example = new Calendar();
+print($simple_example->output_calendar());
+}}}
