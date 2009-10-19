@@ -1,3 +1,4 @@
   * Using the class
+    * [BasicUsage Basic Use]
     * [LanguageLocalization Language Localization]
     * [LinkingDays Formatting Day Links]
