@@ -37,7 +37,7 @@ echo $simple_example->output_calendar();
 
 == Displaying a Calendar for a Specific Date ==
 
-Provide a full date in YYYY-MM-DD format and calendar.class.php will output the correct month with the specified date marked with a CSS class (.selected) ready for you to style.
+Provide a full date in YYYY-MM-DD format and calendar.class.php will output the correct month with the specified date marked with the css class 'selected' ready for you to style.
 
 {{{
 /* include the calendar class */
