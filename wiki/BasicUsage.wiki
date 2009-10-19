@@ -1,5 +1,7 @@
 Download calendar.class.php and included it into your PHP script. Then call the constructor to create a new calendar object. Use the output method to display the calendar.
 
+In this simplest of use (calling the constructor without any additional parameters) the class will display a calendar of the current month with today's date indicated with the css class 'today' so that it can be styled.
+
 
 == Example==
 
