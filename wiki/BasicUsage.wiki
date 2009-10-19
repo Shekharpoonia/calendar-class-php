@@ -3,7 +3,7 @@ Download calendar.class.php and included it into your PHP script. Then call the 
 In this simplest of use (calling the constructor without any additional parameters) the class will display a calendar of the current month with today's date indicated with the css class 'today' so that it can be styled.
 
 
-== Example==
+== Simple Use Example==
 
 {{{
 /* include the calendar class */
