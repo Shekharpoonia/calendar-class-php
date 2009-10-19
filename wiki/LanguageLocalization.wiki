@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Output of the calendar class can be localized to your language. Use PHP's setlocale() function to output the calendar customized for your local language
+Output of the calendar class can be localized to your language. Use [http://www.php.net/setlocale PHP's setlocale() function] to output the calendar customized for your local language
 
 
 == Example==
