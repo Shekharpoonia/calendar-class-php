@@ -16,4 +16,4 @@ $simple_example = new Calendar();
 echo $simple_example->output_calendar();
 }}}
 
-[http://style-vs-substance.com/projects/calendar/examples/example_1.php]
+[http://style-vs-substance.com/projects/calendar/examples/example_1.php View Working Example at Style-vs-SUBSTANCE.com]
