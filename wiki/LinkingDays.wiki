@@ -25,3 +25,6 @@ $calendar->formatted_link_to = '/%Y/%m/%d';
 /* now output the calendar as normal */
 echo $calendar->output_calendar();
 }}}
+
+
+[http://style-vs-substance.com/projects/calendar/examples/example_25_2.php View Working Example at Style-vs-SUBSTANCE.com]
