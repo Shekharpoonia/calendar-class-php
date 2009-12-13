@@ -4,7 +4,7 @@ You can see the examples live at the website:
 [http://style-vs-substance.com/projects/calendar/examples/]
 
 For more help using the class visit the blog:
-[http://style-vs-substance.com/calendarclassphp/]
+[http://style-vs-substance.com/code/calendar-class-php/]
 
 === Usage Examples ===
   * [LanguageLocalization How to Output the calendar in another language]
