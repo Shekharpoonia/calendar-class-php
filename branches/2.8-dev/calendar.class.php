@@ -4,7 +4,7 @@
 *
 * This class provides a simple reuasable means to produce month calendars in valid html
 *
-* @version 2.7
+* @version 2.8
 * @author Jim Mayes <jim.mayes@gmail.com>
 * @link http://style-vs-substance.com
 * @copyright Copyright (c) 2008, Jim Mayes
@@ -183,7 +183,10 @@ class Calendar{
 			}
 			
 			//---------------------------------- start table cell, apply classes
-			$output .= "\t<td" . $day_class . " title=\"" . ucwords(strftime("%A, %B %e, %Y", strtotime($day_date))) . "\">";
+			// detect windows os and substitute for unsupported day of month modifer
+			$title_format = (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN')? "%A, %B %#d, %Y": "%A, %B %e, %Y";
+			
+			$output .= "\t<td" . $day_class . " title=\"" . ucwords(strftime($title_format, strtotime($day_date))) . "\">";
 			
 			//----------------------------------------- unset to keep loop clean
 			unset($day_class, $classes);
