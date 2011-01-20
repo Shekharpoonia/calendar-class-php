@@ -1,5 +1,5 @@
 =======================
-calendar.class.php v2.7
+calendar.class.php v2.8
 =======================
 
 
@@ -30,8 +30,8 @@ output by this class is clean, semantic, valid and easily styled with CSS.
 3. What's new in this version
 =============================
 
-- Bug Fix: starting week on certian days causes a calendar display issues
-	   Property $week_start_on has been replaced by $week_start
+- Bug Fix: Windows platform does not support %e modifier for strftime function
+	   detect windows platform and use %#d instead
 
 For complete feature list visit style-vs-substance.com
 
@@ -66,7 +66,7 @@ Visit style-vs-substance.com to request help or suggest additional features
 6. Copyright
 ============
 
-calendar.class.php v2.7
+calendar.class.php v2.8
 copyright © 2008 Jim Mayes
 licensed under: GPL v2.0 
 http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
